@@ -1,0 +1,1374 @@
+VM
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 1, 0
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.1282 * (normalized) AoA_Bird_Lem
+ +      -0.16   * (normalized) AoA_Bristol_Lem
+ +      -0.59   * (normalized) AoA_Cort_Lem
+ +       0.5816 * (normalized) AoA_Kup
+ +      -4.0228 * (normalized) AoA_Kup_Lem
+ +       1.1087 * (normalized) MRCAoA
+ +       0.6259 * (normalized) MRCColMeaningfulness
+ +      -0.2822 * (normalized) MRCConcreteness
+ +       1.7549 * (normalized) MRCFamiliarity
+ +      -2.6516 * (normalized) MRCImageability
+ +       0.2667 * (normalized) MRCPavioMeaningfulness
+ +       1.5121 * (normalized) POS_adjVar
+ +       1.4006 * (normalized) POS_advVar
+ +       0.1099 * (normalized) POS_correctedVV1
+ +      -0.3752 * (normalized) POS_modVar
+ +       0.9614 * (normalized) POS_nounVar
+ +      -0.5272 * (normalized) POS_numAdjectives
+ +      -0.6249 * (normalized) POS_numAdverbs
+ +      -0.7312 * (normalized) POS_numConjunct
+ +      -0.8452 * (normalized) POS_numDeterminers
+ +      -0.5859 * (normalized) POS_numFunctionWords
+ +      -1.4409 * (normalized) POS_numInterjections
+ +      -1.3696 * (normalized) POS_numLexicals
+ +       0.6    * (normalized) POS_numModals
+ +       0.7119 * (normalized) POS_numNouns
+ +       1.9078 * (normalized) POS_numPerPronouns
+ +      -1.1407 * (normalized) POS_numPrepositions
+ +      -1.9739 * (normalized) POS_numPronouns
+ +       0.2056 * (normalized) POS_numProperNouns
+ +      -0.2822 * (normalized) POS_numVerbs
+ +       1.1132 * (normalized) POS_numVerbsVB
+ +       0.8083 * (normalized) POS_numVerbsVBD
+ +      -0.3885 * (normalized) POS_numVerbsVBG
+ +      -0.1884 * (normalized) POS_numVerbsVBN
+ +       0.8883 * (normalized) POS_numVerbsVBP
+ +       0.0234 * (normalized) POS_numVerbsVBZ
+ +       0.5931 * (normalized) POS_numWhPronouns
+ +      -0.1099 * (normalized) POS_squaredVerbVar1
+ +       0.1099 * (normalized) POS_verbVar1
+ +       0.6099 * (normalized) POS_verbVar2
+ +       0.9117 * (normalized) SYN_CNPerClause
+ +       2.3189 * (normalized) SYN_CNPerTunit
+ +      -0.3942 * (normalized) SYN_ComplexTunitRatio
+ +       0.0989 * (normalized) SYN_CoordPerClause
+ +       1.1402 * (normalized) SYN_CoordPerTunit
+ +       0.2116 * (normalized) SYN_DependentClauseRatio
+ +       0.9731 * (normalized) SYN_DependentClausesPerTunit
+ +       0.1596 * (normalized) SYN_MLC
+ +      -3.2714 * (normalized) SYN_MLT
+ +       2.5702 * (normalized) SYN_TunitComplexityRatio
+ +      -1.2934 * (normalized) SYN_VPPerTunit
+ +      -0.2712 * (normalized) SYN_avgParseTreeHeightPerSen
+ +       3.3916 * (normalized) SYN_avgSentenceLength
+ +       0.3224 * (normalized) SYN_numClausesPerSen
+ +       0.0506 * (normalized) SYN_numConjPPerSen
+ +       1.3335 * (normalized) SYN_numNPSize
+ +       1.0029 * (normalized) SYN_numNPsPerSen
+ +      -0.0017 * (normalized) SYN_numPPSize
+ +      -0.9226 * (normalized) SYN_numPPsPerSen
+ +      -0.092  * (normalized) SYN_numRRCsPerSen
+ +       1.0833 * (normalized) SYN_numSBARsPerSen
+ +       3.0522 * (normalized) SYN_numSentences
+ +       2.3526 * (normalized) SYN_numSubtreesPerSen
+ +      -0.8715 * (normalized) SYN_numTunitsPerSen
+ +      -0.4837 * (normalized) SYN_numVPSize
+ +       0.6434 * (normalized) SYN_numVPsPerSen
+ +      -0.882  * (normalized) SYN_numWHPsPerSen
+ +      -3.2473 * (normalized) TRAD_ARI
+ +       9.3687 * (normalized) TRAD_Coleman
+ +       4.6793 * (normalized) TRAD_FOG
+ +       2.2858 * (normalized) TRAD_FORCAST
+ +       1.3848 * (normalized) TRAD_Flesch
+ +       1.0276 * (normalized) TRAD_Kincaid
+ +      -0.9617 * (normalized) TRAD_LIX
+ +      -1.7094 * (normalized) TRAD_SMOG
+ +      -5.8094 * (normalized) TRAD_numChars
+ +      -0.1944 * (normalized) TRAD_numSyll
+ +      -6.6618 * (normalized) Word_BilogTTR
+ +      -4.6866 * (normalized) Word_CTTR
+ +       0.0429 * (normalized) Word_MTLD
+ +      -3.033  * (normalized) Word_RTTR
+ +       8.2397 * (normalized) Word_TTR
+ +      -0.016  * (normalized) Word_UberIndex
+ -       3.4443
+
+Number of kernel evaluations: -1243067716
+
+
+
+Time taken to build model: 2266.47 seconds
+Time taken to test model on training data: 6.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances      117316               62.5826 %
+Incorrectly Classified Instances     70142               37.4174 %
+Kappa statistic                          0.2517
+Mean absolute error                      0.3742
+Root mean squared error                  0.6117
+Relative absolute error                 74.8349 %
+Root relative squared error            122.3396 %
+Total Number of Instances           187458     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 60526 33203 |     a = 1
+ 36939 56790 |     b = 0
+
+
+=== Error on test data ===
+
+Correctly Classified Instances       29354               62.6259 %
+Incorrectly Classified Instances     17518               37.3741 %
+Kappa statistic                          0.2525
+Mean absolute error                      0.3737
+Root mean squared error                  0.6113
+Relative absolute error                 74.7483 %
+Root relative squared error            122.2688 %
+Total Number of Instances            46872     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 15155  8281 |     a = 1
+  9237 14199 |     b = 0
+
+VM Pairwise
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 1, -1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.0649 * (normalized) AoA_Bird_Lem
+ +      -1.2931 * (normalized) AoA_Bristol_Lem
+ +      -2.6748 * (normalized) AoA_Cort_Lem
+ +       0.099  * (normalized) AoA_Kup
+ +     -18.0217 * (normalized) AoA_Kup_Lem
+ +       3.5322 * (normalized) MRCAoA
+ +       4.8408 * (normalized) MRCColMeaningfulness
+ +      -4.3965 * (normalized) MRCConcreteness
+ +       1.127  * (normalized) MRCFamiliarity
+ +       0.4136 * (normalized) MRCImageability
+ +       0.6491 * (normalized) MRCPavioMeaningfulness
+ +      -3.863  * (normalized) POS_adjVar
+ +      -2.0423 * (normalized) POS_advVar
+ +       0.9473 * (normalized) POS_correctedVV1
+ +       0.1464 * (normalized) POS_modVar
+ +      -2.8919 * (normalized) POS_nounVar
+ +      -0.0262 * (normalized) POS_numAdjectives
+ +      -0.2619 * (normalized) POS_numAdverbs
+ +      -0.7464 * (normalized) POS_numConjunct
+ +      -1.9806 * (normalized) POS_numDeterminers
+ +      -0.9068 * (normalized) POS_numFunctionWords
+ +      -0.9101 * (normalized) POS_numInterjections
+ +      -0.3627 * (normalized) POS_numLexicals
+ +       0.7014 * (normalized) POS_numModals
+ +      -1.324  * (normalized) POS_numNouns
+ +       2.6809 * (normalized) POS_numPerPronouns
+ +      -1.9812 * (normalized) POS_numPrepositions
+ +      -3.2496 * (normalized) POS_numPronouns
+ +       1.4417 * (normalized) POS_numProperNouns
+ +       0.0364 * (normalized) POS_numVerbs
+ +      -3.4734 * (normalized) POS_numVerbsVB
+ +       0.5339 * (normalized) POS_numVerbsVBD
+ +      -0.9954 * (normalized) POS_numVerbsVBG
+ +      -3.097  * (normalized) POS_numVerbsVBN
+ +       3.3317 * (normalized) POS_numVerbsVBP
+ +       1.7091 * (normalized) POS_numVerbsVBZ
+ +       0.7067 * (normalized) POS_numWhPronouns
+ +      -0.9473 * (normalized) POS_squaredVerbVar1
+ +       0.9473 * (normalized) POS_verbVar1
+ +      -2.3444 * (normalized) POS_verbVar2
+ +       1.246  * (normalized) SYN_CNPerClause
+ +      -0.3743 * (normalized) SYN_CNPerTunit
+ +      -0.2975 * (normalized) SYN_ComplexTunitRatio
+ +       0.1022 * (normalized) SYN_CoordPerClause
+ +      -0.0573 * (normalized) SYN_CoordPerTunit
+ +       0.7088 * (normalized) SYN_DependentClauseRatio
+ +       0.4536 * (normalized) SYN_DependentClausesPerTunit
+ +      -0.9526 * (normalized) SYN_MLC
+ +      -1.6536 * (normalized) SYN_MLT
+ +       1.0514 * (normalized) SYN_TunitComplexityRatio
+ +      -0.9085 * (normalized) SYN_VPPerTunit
+ +      -0.4601 * (normalized) SYN_avgParseTreeHeightPerSen
+ +      -1.4048 * (normalized) SYN_avgSentenceLength
+ +       5.3212 * (normalized) SYN_numClausesPerSen
+ +      -0.6093 * (normalized) SYN_numConjPPerSen
+ +       0.8211 * (normalized) SYN_numNPSize
+ +       2.9391 * (normalized) SYN_numNPsPerSen
+ +       0.0387 * (normalized) SYN_numPPSize
+ +      -3.4649 * (normalized) SYN_numPPsPerSen
+ +       0.9029 * (normalized) SYN_numRRCsPerSen
+ +       1.5288 * (normalized) SYN_numSBARsPerSen
+ +       2.8954 * (normalized) SYN_numSentences
+ +      -1.4355 * (normalized) SYN_numSubtreesPerSen
+ +       0.4832 * (normalized) SYN_numTunitsPerSen
+ +      -0.701  * (normalized) SYN_numVPSize
+ +       0.8383 * (normalized) SYN_numVPsPerSen
+ +      -1.4921 * (normalized) SYN_numWHPsPerSen
+ +       2.8063 * (normalized) TRAD_ARI
+ +       0.4794 * (normalized) TRAD_Coleman
+ +       5.6932 * (normalized) TRAD_FOG
+ +       3.0709 * (normalized) TRAD_FORCAST
+ +       2.1323 * (normalized) TRAD_Flesch
+ +       4.5071 * (normalized) TRAD_Kincaid
+ +      -4.1858 * (normalized) TRAD_LIX
+ +      -5.6121 * (normalized) TRAD_SMOG
+ +      -7.2509 * (normalized) TRAD_numChars
+ +      -0.8354 * (normalized) TRAD_numSyll
+ +      -1.0737 * (normalized) Word_BilogTTR
+ +      -4.9085 * (normalized) Word_CTTR
+ +      -0.1803 * (normalized) Word_MTLD
+ +      -5.9925 * (normalized) Word_RTTR
+ +       5.5955 * (normalized) Word_TTR
+ +       0.5512 * (normalized) Word_UberIndex
+ +      15.2823
+
+Number of kernel evaluations: 657361831 (35.951% cached)
+
+
+
+Time taken to build model: 476.2 seconds
+Time taken to test model on training data: 5.44 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances      147726               78.8049 %
+Incorrectly Classified Instances     39732               21.1951 %
+Kappa statistic                          0.5761
+Mean absolute error                      0.212 
+Root mean squared error                  0.4604
+Relative absolute error                 42.3903 %
+Root relative squared error             92.0764 %
+Total Number of Instances           187458     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 74112 19617 |     a = 1
+ 20115 73614 |     b = -1
+
+
+=== Error on test data ===
+
+Correctly Classified Instances       36881               78.6845 %
+Incorrectly Classified Instances      9991               21.3155 %
+Kappa statistic                          0.5737
+Mean absolute error                      0.2132
+Root mean squared error                  0.4617
+Relative absolute error                 42.631  %
+Root relative squared error             92.3374 %
+Total Number of Instances            46872     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 18498  4938 |     a = 1
+  5053 18383 |     b = -1
+
+VM Pairwise - PCFG features (Baseline)
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 1, -1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.4377 * (normalized) AoA_Bird_Lem
+ +      -1.4228 * (normalized) AoA_Bristol_Lem
+ +      -2.5402 * (normalized) AoA_Cort_Lem
+ +      -0.8718 * (normalized) AoA_Kup
+ +     -17.1677 * (normalized) AoA_Kup_Lem
+ +       3.5837 * (normalized) MRCAoA
+ +       5.2333 * (normalized) MRCColMeaningfulness
+ +      -4.0812 * (normalized) MRCConcreteness
+ +      -2.5434 * (normalized) MRCFamiliarity
+ +       3.9774 * (normalized) MRCImageability
+ +       0.4596 * (normalized) MRCPavioMeaningfulness
+ +       4.1428 * (normalized) TRAD_ARI
+ +      -1.6622 * (normalized) TRAD_Coleman
+ +       5.4048 * (normalized) TRAD_FOG
+ +       2.0411 * (normalized) TRAD_FORCAST
+ +       1.8181 * (normalized) TRAD_Flesch
+ +       4.2733 * (normalized) TRAD_Kincaid
+ +      -5.2031 * (normalized) TRAD_LIX
+ +      -6.2542 * (normalized) TRAD_SMOG
+ +      -5.043  * (normalized) TRAD_numChars
+ +      -1.1279 * (normalized) TRAD_numSyll
+ +      -1.1567 * (normalized) Word_BilogTTR
+ +      -5.2819 * (normalized) Word_CTTR
+ +      -0.0161 * (normalized) Word_MTLD
+ +      -6.7817 * (normalized) Word_RTTR
+ +       6.2556 * (normalized) Word_TTR
+ +       0.4809 * (normalized) Word_UberIndex
+ +      10.0228
+
+Number of kernel evaluations: 199323327 (43.305% cached)
+
+
+
+Time taken to build model: 84.25 seconds
+Time taken to test model on training data: 2.35 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances      146430               78.1135 %
+Incorrectly Classified Instances     41028               21.8865 %
+Kappa statistic                          0.5623
+Mean absolute error                      0.2189
+Root mean squared error                  0.4678
+Relative absolute error                 43.773  %
+Root relative squared error             93.566  %
+Total Number of Instances           187458     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 73754 19975 |     a = 1
+ 21053 72676 |     b = -1
+
+
+=== Error on test data ===
+
+Correctly Classified Instances       36578               78.0381 %
+Incorrectly Classified Instances     10294               21.9619 %
+Kappa statistic                          0.5608
+Mean absolute error                      0.2196
+Root mean squared error                  0.4686
+Relative absolute error                 43.9239 %
+Root relative squared error             93.7271 %
+Total Number of Instances            46872     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 18435  5001 |     a = 1
+  5293 18143 |     b = -1
+
+Baseline + All CCG Features
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 1, -1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.3005 * (normalized) AoA_Bird_Lem
+ +      -1.0824 * (normalized) AoA_Bristol_Lem
+ +      -3.0191 * (normalized) AoA_Cort_Lem
+ +      -0.1535 * (normalized) AoA_Kup
+ +     -17.9674 * (normalized) AoA_Kup_Lem
+ +       3.1959 * (normalized) MRCAoA
+ +       4.7541 * (normalized) MRCColMeaningfulness
+ +      -4.0049 * (normalized) MRCConcreteness
+ +       0.7726 * (normalized) MRCFamiliarity
+ +       0.1141 * (normalized) MRCImageability
+ +       0.6472 * (normalized) MRCPavioMeaningfulness
+ +       2.0632 * (normalized) TRAD_ARI
+ +      -0.0129 * (normalized) TRAD_Coleman
+ +       5.7901 * (normalized) TRAD_FOG
+ +       1.7908 * (normalized) TRAD_FORCAST
+ +       2.3042 * (normalized) TRAD_Flesch
+ +       3.7098 * (normalized) TRAD_Kincaid
+ +      -4.0102 * (normalized) TRAD_LIX
+ +      -5.7694 * (normalized) TRAD_SMOG
+ +      -6.9684 * (normalized) TRAD_numChars
+ +      -0.9604 * (normalized) TRAD_numSyll
+ +      -0.5264 * (normalized) Word_BilogTTR
+ +      -4.696  * (normalized) Word_CTTR
+ +      -0.1632 * (normalized) Word_MTLD
+ +      -5.7787 * (normalized) Word_RTTR
+ +       4.6731 * (normalized) Word_TTR
+ +       0.4782 * (normalized) Word_UberIndex
+ +      -1.9785 * (normalized) CCG_POS_adjVar
+ +      -2.2239 * (normalized) CCG_POS_advVar
+ +      -2.0948 * (normalized) CCG_POS_correctedVV1
+ +       0.0164 * (normalized) CCG_POS_modVar
+ +      -3.0726 * (normalized) CCG_POS_nounVar
+ +      -2.0953 * (normalized) CCG_POS_numAdjectives
+ +      -2.1516 * (normalized) CCG_POS_numAdverbs
+ +      -0.3053 * (normalized) CCG_POS_numConjunct
+ +      -0.3193 * (normalized) CCG_POS_numDeterminers
+ +       0.2208 * (normalized) CCG_POS_numFunctionWords
+ +      -1.017  * (normalized) CCG_POS_numInterjections
+ +       3.8679 * (normalized) CCG_POS_numLexicals
+ +       1.3665 * (normalized) CCG_POS_numModals
+ +       0.1042 * (normalized) CCG_POS_numNouns
+ +       2.3405 * (normalized) CCG_POS_numPerPronouns
+ +      -1.2902 * (normalized) CCG_POS_numPrepositions
+ +      -0.8225 * (normalized) CCG_POS_numPronouns
+ +       1.5682 * (normalized) CCG_POS_numProperNouns
+ +      -0.8764 * (normalized) CCG_POS_numVerbs
+ +      -1.104  * (normalized) CCG_POS_numVerbsVB
+ +       0.838  * (normalized) CCG_POS_numVerbsVBD
+ +      -1.0353 * (normalized) CCG_POS_numVerbsVBG
+ +      -2.586  * (normalized) CCG_POS_numVerbsVBN
+ +       2.8049 * (normalized) CCG_POS_numVerbsVBP
+ +       1.7369 * (normalized) CCG_POS_numVerbsVBZ
+ +      -0.9277 * (normalized) CCG_POS_numWhPronouns
+ +       3.1806 * (normalized) CCG_POS_squaredVerbVar1
+ +       2.2673 * (normalized) CCG_POS_verbVar1
+ +      -1.453  * (normalized) CCG_POS_verbVar2
+ +       0.1486 * (normalized) CCG_application
+ +      -1.1734 * (normalized) CCG_aveHeight
+ +       0.6682 * (normalized) CCG_ba
+ +      -0.1364 * (normalized) CCG_composition
+ +      -0.3003 * (normalized) CCG_conj
+ +      -0.026  * (normalized) CCG_conjF
+ +      -0.0423 * (normalized) CCG_fa
+ +      -0.0965 * (normalized) CCG_gbc
+ +      -0.0689 * (normalized) CCG_gfc
+ +       1.4299 * (normalized) CCG_lex
+ +      -0.3911 * (normalized) CCG_lp
+ +      -0.2528 * (normalized) CCG_lprp
+ +      -3.5882 * (normalized) CCG_numArgs
+ +       2.5196 * (normalized) CCG_numITV
+ +       1.3861 * (normalized) CCG_numNP
+ +      -0.0153 * (normalized) CCG_numNPexpl
+ +      -2.5953 * (normalized) CCG_numNPnb
+ +       2.8132 * (normalized) CCG_numNPthr
+ +       0.2746 * (normalized) CCG_numNnum
+ +      -1.8515 * (normalized) CCG_numPP1
+ +      -1.9992 * (normalized) CCG_numPP2
+ +       0.2191 * (normalized) CCG_numS
+ +       0.3788 * (normalized) CCG_numSadj
+ +       1.0738 * (normalized) CCG_numSb
+ +      -0.903  * (normalized) CCG_numSbNP
+ +       1.2893 * (normalized) CCG_numSbNPSbNP
+ +      -0.1934 * (normalized) CCG_numSbem
+ +       4.0411 * (normalized) CCG_numSdcl
+ +      -0.8297 * (normalized) CCG_numSem
+ +       0.6458 * (normalized) CCG_numSfNP
+ +       0.0935 * (normalized) CCG_numSfor
+ +      -0.4689 * (normalized) CCG_numSinv
+ +       0.3113 * (normalized) CCG_numSng
+ +       0.3144 * (normalized) CCG_numSpss
+ +      -1.0896 * (normalized) CCG_numSpt
+ +      -0.5313 * (normalized) CCG_numSq
+ +       0.4748 * (normalized) CCG_numSqem
+ +      -0.9294 * (normalized) CCG_numSto
+ +      -0.7562 * (normalized) CCG_numSwq
+ +       0.6489 * (normalized) CCG_numTV
+ +       0.4736 * (normalized) CCG_other
+ +      -0.1158 * (normalized) CCG_rp
+ +       0.1862 * (normalized) CCG_sentLength
+ +      12.7619
+
+Number of kernel evaluations: 885550424 (33.224% cached)
+
+
+
+Time taken to build model: 652.32 seconds
+Time taken to test model on training data: 5.99 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances      147656               78.7675 %
+Incorrectly Classified Instances     39802               21.2325 %
+Kappa statistic                          0.5754
+Mean absolute error                      0.2123
+Root mean squared error                  0.4608
+Relative absolute error                 42.465  %
+Root relative squared error             92.1575 %
+Total Number of Instances           187458     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 73644 20085 |     a = 1
+ 19717 74012 |     b = -1
+
+
+=== Error on test data ===
+
+Correctly Classified Instances       36921               78.7698 %
+Incorrectly Classified Instances      9951               21.2302 %
+Kappa statistic                          0.5754
+Mean absolute error                      0.2123
+Root mean squared error                  0.4608
+Relative absolute error                 42.4603 %
+Root relative squared error             92.1524 %
+Total Number of Instances            46872     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 18406  5030 |     a = 1
+  4921 18515 |     b = -1
+
+Baseline + All iCCG Features
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 1, -1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.3325 * (normalized) AoA_Bird_Lem
+ +      -1.0886 * (normalized) AoA_Bristol_Lem
+ +      -2.9614 * (normalized) AoA_Cort_Lem
+ +      -0.1286 * (normalized) AoA_Kup
+ +     -17.9061 * (normalized) AoA_Kup_Lem
+ +       3.2465 * (normalized) MRCAoA
+ +       4.7571 * (normalized) MRCColMeaningfulness
+ +      -4.2955 * (normalized) MRCConcreteness
+ +       0.8616 * (normalized) MRCFamiliarity
+ +       0.2665 * (normalized) MRCImageability
+ +       0.7271 * (normalized) MRCPavioMeaningfulness
+ +       2.1067 * (normalized) TRAD_ARI
+ +      -0.2402 * (normalized) TRAD_Coleman
+ +       5.8043 * (normalized) TRAD_FOG
+ +       1.4857 * (normalized) TRAD_FORCAST
+ +       2.2988 * (normalized) TRAD_Flesch
+ +       3.6104 * (normalized) TRAD_Kincaid
+ +      -3.998  * (normalized) TRAD_LIX
+ +      -5.9079 * (normalized) TRAD_SMOG
+ +      -6.939  * (normalized) TRAD_numChars
+ +      -1.0028 * (normalized) TRAD_numSyll
+ +      -0.5741 * (normalized) Word_BilogTTR
+ +      -4.6145 * (normalized) Word_CTTR
+ +      -0.1042 * (normalized) Word_MTLD
+ +      -5.6982 * (normalized) Word_RTTR
+ +       4.7269 * (normalized) Word_TTR
+ +       0.4267 * (normalized) Word_UberIndex
+ +      -1.9895 * (normalized) iCCG_POS_adjVar
+ +      -2.0721 * (normalized) iCCG_POS_advVar
+ +      -1.2564 * (normalized) iCCG_POS_correctedVV1
+ +       0.1327 * (normalized) iCCG_POS_modVar
+ +      -2.9927 * (normalized) iCCG_POS_nounVar
+ +      -2.1902 * (normalized) iCCG_POS_numAdjectives
+ +      -2.073  * (normalized) iCCG_POS_numAdverbs
+ +      -0.3714 * (normalized) iCCG_POS_numConjunct
+ +      -0.4894 * (normalized) iCCG_POS_numDeterminers
+ +       0.0583 * (normalized) iCCG_POS_numFunctionWords
+ +      -0.7218 * (normalized) iCCG_POS_numInterjections
+ +       3.8676 * (normalized) iCCG_POS_numLexicals
+ +       1.5604 * (normalized) iCCG_POS_numModals
+ +      -0.0796 * (normalized) iCCG_POS_numNouns
+ +       2.4435 * (normalized) iCCG_POS_numPerPronouns
+ +      -1.1601 * (normalized) iCCG_POS_numPrepositions
+ +      -1.1172 * (normalized) iCCG_POS_numPronouns
+ +       1.5329 * (normalized) iCCG_POS_numProperNouns
+ +      -0.899  * (normalized) iCCG_POS_numVerbs
+ +      -1.4768 * (normalized) iCCG_POS_numVerbsVB
+ +       1.1399 * (normalized) iCCG_POS_numVerbsVBD
+ +      -1.4361 * (normalized) iCCG_POS_numVerbsVBG
+ +      -2.7343 * (normalized) iCCG_POS_numVerbsVBN
+ +       3.023  * (normalized) iCCG_POS_numVerbsVBP
+ +       1.9851 * (normalized) iCCG_POS_numVerbsVBZ
+ +      -0.9252 * (normalized) iCCG_POS_numWhPronouns
+ +       3.6985 * (normalized) iCCG_POS_squaredVerbVar1
+ +       1.9187 * (normalized) iCCG_POS_verbVar1
+ +      -1.2875 * (normalized) iCCG_POS_verbVar2
+ +       0.0222 * (normalized) iCCG_application
+ +       0.1442 * (normalized) iCCG_aveHeight
+ +      -0.2164 * (normalized) iCCG_ba
+ +      -0.435  * (normalized) iCCG_composition
+ +      -0.2822 * (normalized) iCCG_conj
+ +       0.9771 * (normalized) iCCG_conjF
+ +       0.0508 * (normalized) iCCG_fa
+ +       0.0365 * (normalized) iCCG_gbc
+ +      -0.5224 * (normalized) iCCG_gfc
+ +       1.0035 * (normalized) iCCG_lex
+ +      -0.4534 * (normalized) iCCG_lp
+ +      -0.1362 * (normalized) iCCG_lprp
+ +      -0.0818 * (normalized) iCCG_lreveal
+ +      -3.1796 * (normalized) iCCG_numArgs
+ +       2.5323 * (normalized) iCCG_numITV
+ +       0.5047 * (normalized) iCCG_numNP
+ +      -0.2446 * (normalized) iCCG_numNPexpl
+ +      -2.3051 * (normalized) iCCG_numNPnb
+ +       2.7363 * (normalized) iCCG_numNPthr
+ +       0.3624 * (normalized) iCCG_numNnum
+ +      -4.0479 * (normalized) iCCG_numPP1
+ +      -2.0645 * (normalized) iCCG_numPP2
+ +      -0.4027 * (normalized) iCCG_numS
+ +       0.0997 * (normalized) iCCG_numSadj
+ +       1.663  * (normalized) iCCG_numSb
+ +      -0.9984 * (normalized) iCCG_numSbNP
+ +       0.3815 * (normalized) iCCG_numSbNPSbNP
+ +       0.073  * (normalized) iCCG_numSbem
+ +       3.3854 * (normalized) iCCG_numSdcl
+ +      -0.4383 * (normalized) iCCG_numSem
+ +      -0.4637 * (normalized) iCCG_numSfNP
+ +       0.0542 * (normalized) iCCG_numSfor
+ +      -0.2255 * (normalized) iCCG_numSinv
+ +       0.6607 * (normalized) iCCG_numSng
+ +       0.3838 * (normalized) iCCG_numSpss
+ +      -1.2028 * (normalized) iCCG_numSpt
+ +       1.3548 * (normalized) iCCG_numSq
+ +       0.2263 * (normalized) iCCG_numSqem
+ +      -1.5316 * (normalized) iCCG_numSto
+ +      -0.4446 * (normalized) iCCG_numSwq
+ +       0.7081 * (normalized) iCCG_numTV
+ +      -0.0748 * (normalized) iCCG_other
+ +       0.1722 * (normalized) iCCG_revealLevel
+ +       0.0366 * (normalized) iCCG_rp
+ +       1.0762 * (normalized) iCCG_rreveal
+ +       0.401  * (normalized) iCCG_sentLength
+ +       1.1804 * (normalized) iCCG_tfc
+ +      12.6223
+
+Number of kernel evaluations: 902885747 (32.804% cached)
+
+
+
+Time taken to build model: 838.09 seconds
+Time taken to test model on training data: 6.16 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances      147729               78.8065 %
+Incorrectly Classified Instances     39729               21.1935 %
+Kappa statistic                          0.5761
+Mean absolute error                      0.2119
+Root mean squared error                  0.4604
+Relative absolute error                 42.3871 %
+Root relative squared error             92.0729 %
+Total Number of Instances           187458     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 74049 19680 |     a = 1
+ 20049 73680 |     b = -1
+
+
+=== Error on test data ===
+
+Correctly Classified Instances       36970               78.8744 %
+Incorrectly Classified Instances      9902               21.1256 %
+Kappa statistic                          0.5775
+Mean absolute error                      0.2113
+Root mean squared error                  0.4596
+Relative absolute error                 42.2512 %
+Root relative squared error             91.9252 %
+Total Number of Instances            46872     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 18541  4895 |     a = 1
+  5007 18429 |     b = -1
+
+Baseline + iCCG +inn Features
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 1, -1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.2255 * (normalized) AoA_Bird_Lem
+ +      -1.2491 * (normalized) AoA_Bristol_Lem
+ +      -2.8994 * (normalized) AoA_Cort_Lem
+ +      -0.5553 * (normalized) AoA_Kup
+ +     -17.5678 * (normalized) AoA_Kup_Lem
+ +       3.5941 * (normalized) MRCAoA
+ +       4.709  * (normalized) MRCColMeaningfulness
+ +      -4.2661 * (normalized) MRCConcreteness
+ +       0.9648 * (normalized) MRCFamiliarity
+ +       0.2064 * (normalized) MRCImageability
+ +       0.7397 * (normalized) MRCPavioMeaningfulness
+ +       1.6739 * (normalized) TRAD_ARI
+ +      -0.1975 * (normalized) TRAD_Coleman
+ +       5.0699 * (normalized) TRAD_FOG
+ +       1.3528 * (normalized) TRAD_FORCAST
+ +       1.9417 * (normalized) TRAD_Flesch
+ +       3.3688 * (normalized) TRAD_Kincaid
+ +      -3.8603 * (normalized) TRAD_LIX
+ +      -5.858  * (normalized) TRAD_SMOG
+ +      -6.8031 * (normalized) TRAD_numChars
+ +      -0.8967 * (normalized) TRAD_numSyll
+ +      -0.3335 * (normalized) Word_BilogTTR
+ +      -4.8582 * (normalized) Word_CTTR
+ +      -0.1357 * (normalized) Word_MTLD
+ +      -5.9613 * (normalized) Word_RTTR
+ +       4.5872 * (normalized) Word_TTR
+ +       0.5285 * (normalized) Word_UberIndex
+ +      -1.9591 * (normalized) iCCG_POS_adjVar
+ +      -1.8786 * (normalized) iCCG_POS_advVar
+ +       0.2439 * (normalized) iCCG_POS_correctedVV1
+ +       0.772  * (normalized) iCCG_POS_modVar
+ +      -2.6406 * (normalized) iCCG_POS_nounVar
+ +      -1.9368 * (normalized) iCCG_POS_numAdjectives
+ +      -1.8489 * (normalized) iCCG_POS_numAdverbs
+ +      -0.4227 * (normalized) iCCG_POS_numConjunct
+ +      -0.4009 * (normalized) iCCG_POS_numDeterminers
+ +       0.288  * (normalized) iCCG_POS_numFunctionWords
+ +       0.0406 * (normalized) iCCG_POS_numInterjections
+ +       3.5463 * (normalized) iCCG_POS_numLexicals
+ +       1.1919 * (normalized) iCCG_POS_numModals
+ +      -0.4859 * (normalized) iCCG_POS_numNouns
+ +       1.9153 * (normalized) iCCG_POS_numPerPronouns
+ +      -1.2134 * (normalized) iCCG_POS_numPrepositions
+ +      -0.7346 * (normalized) iCCG_POS_numPronouns
+ +       2.1019 * (normalized) iCCG_POS_numProperNouns
+ +      -1.7403 * (normalized) iCCG_POS_numVerbs
+ +      -0.9043 * (normalized) iCCG_POS_numVerbsVB
+ +       0.3045 * (normalized) iCCG_POS_numVerbsVBD
+ +      -1.6261 * (normalized) iCCG_POS_numVerbsVBG
+ +      -2.5484 * (normalized) iCCG_POS_numVerbsVBN
+ +       2.2067 * (normalized) iCCG_POS_numVerbsVBP
+ +       1.1297 * (normalized) iCCG_POS_numVerbsVBZ
+ +      -0.7195 * (normalized) iCCG_POS_numWhPronouns
+ +      -0.2439 * (normalized) iCCG_POS_squaredVerbVar1
+ +       0.2439 * (normalized) iCCG_POS_verbVar1
+ +      -0.6233 * (normalized) iCCG_POS_verbVar2
+ +       1.6911 * (normalized) iCCG_application
+ +      -0.2071 * (normalized) iCCG_aveHeight
+ +       0.7936 * (normalized) iCCG_ba
+ +      -0.2531 * (normalized) iCCG_composition
+ +      -0.1399 * (normalized) iCCG_conj
+ +       0.9642 * (normalized) iCCG_conjF
+ +       1.5923 * (normalized) iCCG_fa
+ +       0.4208 * (normalized) iCCG_frag
+ +      -0.1413 * (normalized) iCCG_gbc
+ +      -0.2166 * (normalized) iCCG_gfc
+ +       0.5582 * (normalized) iCCG_lex
+ +      -1.2845 * (normalized) iCCG_lp
+ +      -1.508  * (normalized) iCCG_lprp
+ +      -0.3571 * (normalized) iCCG_lreveal
+ +      -5.143  * (normalized) iCCG_numArgs
+ +       0.5016 * (normalized) iCCG_numITV
+ +       0.3055 * (normalized) iCCG_numNP
+ +       0.1527 * (normalized) iCCG_numNPexpl
+ +      -3.6493 * (normalized) iCCG_numNPnb
+ +       2.6412 * (normalized) iCCG_numNPthr
+ +       0.5171 * (normalized) iCCG_numNnum
+ +      -2.2666 * (normalized) iCCG_numPP1
+ +      -1.9514 * (normalized) iCCG_numPP2
+ +      -0.0414 * (normalized) iCCG_numS
+ +       0.7267 * (normalized) iCCG_numSadj
+ +       1.4792 * (normalized) iCCG_numSb
+ +      -1.47   * (normalized) iCCG_numSbNP
+ +       1.6884 * (normalized) iCCG_numSbNPSbNP
+ +      -1.1593 * (normalized) iCCG_numSbem
+ +       4.2245 * (normalized) iCCG_numSdcl
+ +      -0.3491 * (normalized) iCCG_numSem
+ +      -0.5414 * (normalized) iCCG_numSfNP
+ +      -0.4623 * (normalized) iCCG_numSfor
+ +       0.213  * (normalized) iCCG_numSfrg
+ +       0.8341 * (normalized) iCCG_numSintj
+ +      -1.0466 * (normalized) iCCG_numSinv
+ +       0.6656 * (normalized) iCCG_numSng
+ +       0.4191 * (normalized) iCCG_numSpss
+ +      -1.083  * (normalized) iCCG_numSpt
+ +       0.424  * (normalized) iCCG_numSq
+ +      -0.7124 * (normalized) iCCG_numSqem
+ +      -1.0704 * (normalized) iCCG_numSto
+ +      -0.2318 * (normalized) iCCG_numSwq
+ +       1.8309 * (normalized) iCCG_numTV
+ +       0.7224 * (normalized) iCCG_other
+ +      -0.0031 * (normalized) iCCG_revealLevel
+ +      -0.3912 * (normalized) iCCG_rp
+ +       1.051  * (normalized) iCCG_rreveal
+ +       1.5998 * (normalized) iCCG_sentLength
+ +       1.5539 * (normalized) iCCG_tfc
+ +      14.7656
+
+Number of kernel evaluations: 952418169 (32.494% cached)
+
+
+
+Time taken to build model: 826.28 seconds
+Time taken to test model on training data: 6.08 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances      147737               78.8107 %
+Incorrectly Classified Instances     39721               21.1893 %
+Kappa statistic                          0.5762
+Mean absolute error                      0.2119
+Root mean squared error                  0.4603
+Relative absolute error                 42.3786 %
+Root relative squared error             92.0636 %
+Total Number of Instances           187458     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 74030 19699 |     a = 1
+ 20022 73707 |     b = -1
+
+
+=== Error on test data ===
+
+Correctly Classified Instances       36923               78.7741 %
+Incorrectly Classified Instances      9949               21.2259 %
+Kappa statistic                          0.5755
+Mean absolute error                      0.2123
+Root mean squared error                  0.4607
+Relative absolute error                 42.4518 %
+Root relative squared error             92.1431 %
+Total Number of Instances            46872     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 18508  4928 |     a = 1
+  5021 18415 |     b = -1
+
+PCFG features
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 1, -1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -5.1899 * (normalized) POS_adjVar
+ +      -3.6322 * (normalized) POS_advVar
+ +       0.0607 * (normalized) POS_correctedVV1
+ +      -0.1057 * (normalized) POS_modVar
+ +      -2.6435 * (normalized) POS_nounVar
+ +      -2.8815 * (normalized) POS_numAdjectives
+ +      -1.7701 * (normalized) POS_numAdverbs
+ +      -3.9881 * (normalized) POS_numConjunct
+ +      -0.9106 * (normalized) POS_numDeterminers
+ +       2.1342 * (normalized) POS_numFunctionWords
+ +      -0.7576 * (normalized) POS_numInterjections
+ +      -1.6397 * (normalized) POS_numLexicals
+ +      -0.5514 * (normalized) POS_numModals
+ +      -7.1423 * (normalized) POS_numNouns
+ +       3.8279 * (normalized) POS_numPerPronouns
+ +      -2.8596 * (normalized) POS_numPrepositions
+ +      -3.4559 * (normalized) POS_numPronouns
+ +       2.4929 * (normalized) POS_numProperNouns
+ +       4.1369 * (normalized) POS_numVerbs
+ +       0.5253 * (normalized) POS_numVerbsVB
+ +       2.7858 * (normalized) POS_numVerbsVBD
+ +      -5.9705 * (normalized) POS_numVerbsVBG
+ +      -5.1691 * (normalized) POS_numVerbsVBN
+ +       4.8465 * (normalized) POS_numVerbsVBP
+ +       3.6577 * (normalized) POS_numVerbsVBZ
+ +       0.6667 * (normalized) POS_numWhPronouns
+ +      -0.0607 * (normalized) POS_squaredVerbVar1
+ +       0.0608 * (normalized) POS_verbVar1
+ +      -3.8207 * (normalized) POS_verbVar2
+ +       0.3906 * (normalized) SYN_CNPerClause
+ +       1.3273 * (normalized) SYN_CNPerTunit
+ +      -0.7742 * (normalized) SYN_ComplexTunitRatio
+ +       0.4443 * (normalized) SYN_CoordPerClause
+ +       0.2386 * (normalized) SYN_CoordPerTunit
+ +      -0.1947 * (normalized) SYN_DependentClauseRatio
+ +       1.7558 * (normalized) SYN_DependentClausesPerTunit
+ +      -1.1452 * (normalized) SYN_MLC
+ +      -6.7064 * (normalized) SYN_MLT
+ +       1.333  * (normalized) SYN_TunitComplexityRatio
+ +      -2.6723 * (normalized) SYN_VPPerTunit
+ +      -0.9099 * (normalized) SYN_avgParseTreeHeightPerSen
+ +     -15.1456 * (normalized) SYN_avgSentenceLength
+ +       4.6942 * (normalized) SYN_numClausesPerSen
+ +      -0.2333 * (normalized) SYN_numConjPPerSen
+ +      -5.5636 * (normalized) SYN_numNPSize
+ +       2.1017 * (normalized) SYN_numNPsPerSen
+ +      -0.3806 * (normalized) SYN_numPPSize
+ +      -3.0628 * (normalized) SYN_numPPsPerSen
+ +       0.6206 * (normalized) SYN_numRRCsPerSen
+ +       2.2991 * (normalized) SYN_numSBARsPerSen
+ +      -1.3194 * (normalized) SYN_numSentences
+ +      -8.1309 * (normalized) SYN_numSubtreesPerSen
+ +      -2.3526 * (normalized) SYN_numTunitsPerSen
+ +      -1.2341 * (normalized) SYN_numVPSize
+ +       1.4541 * (normalized) SYN_numVPsPerSen
+ +      -1.4285 * (normalized) SYN_numWHPsPerSen
+ +      30.9741
+
+Number of kernel evaluations: 376209991 (39.984% cached)
+
+
+
+Time taken to build model: 193.23 seconds
+Time taken to test model on training data: 3.53 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances      134803               71.911  %
+Incorrectly Classified Instances     52655               28.089  %
+Kappa statistic                          0.4382
+Mean absolute error                      0.2809
+Root mean squared error                  0.53  
+Relative absolute error                 56.1779 %
+Root relative squared error            105.998  %
+Total Number of Instances           187458     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 69654 24075 |     a = 1
+ 28580 65149 |     b = -1
+
+
+=== Error on test data ===
+
+Correctly Classified Instances       33597               71.6782 %
+Incorrectly Classified Instances     13275               28.3218 %
+Kappa statistic                          0.4336
+Mean absolute error                      0.2832
+Root mean squared error                  0.5322
+Relative absolute error                 56.6436 %
+Root relative squared error            106.4365 %
+Total Number of Instances            46872     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 17366  6070 |     a = 1
+  7205 16231 |     b = -1
+
+CCG Features
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 1, -1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -3.3584 * (normalized) CCG_POS_adjVar
+ +      -4.0079 * (normalized) CCG_POS_advVar
+ +     -13.6271 * (normalized) CCG_POS_correctedVV1
+ +      -0.5841 * (normalized) CCG_POS_modVar
+ +      -3.5274 * (normalized) CCG_POS_nounVar
+ +      -4.8849 * (normalized) CCG_POS_numAdjectives
+ +      -3.92   * (normalized) CCG_POS_numAdverbs
+ +      -1.7314 * (normalized) CCG_POS_numConjunct
+ +       0.4665 * (normalized) CCG_POS_numDeterminers
+ +       3.3196 * (normalized) CCG_POS_numFunctionWords
+ +      -0.7623 * (normalized) CCG_POS_numInterjections
+ +       2.6105 * (normalized) CCG_POS_numLexicals
+ +      -0.5494 * (normalized) CCG_POS_numModals
+ +      -5.3358 * (normalized) CCG_POS_numNouns
+ +       4.3732 * (normalized) CCG_POS_numPerPronouns
+ +      -1.9088 * (normalized) CCG_POS_numPrepositions
+ +      -1.7472 * (normalized) CCG_POS_numPronouns
+ +       3.0828 * (normalized) CCG_POS_numProperNouns
+ +       1.6101 * (normalized) CCG_POS_numVerbs
+ +       1.1142 * (normalized) CCG_POS_numVerbsVB
+ +       2.5581 * (normalized) CCG_POS_numVerbsVBD
+ +      -4.3801 * (normalized) CCG_POS_numVerbsVBG
+ +      -3.8124 * (normalized) CCG_POS_numVerbsVBN
+ +       4.3098 * (normalized) CCG_POS_numVerbsVBP
+ +       3.8299 * (normalized) CCG_POS_numVerbsVBZ
+ +      -0.0365 * (normalized) CCG_POS_numWhPronouns
+ +      11.3624 * (normalized) CCG_POS_squaredVerbVar1
+ +      10.2226 * (normalized) CCG_POS_verbVar1
+ +      -1.986  * (normalized) CCG_POS_verbVar2
+ +      -5.4895 * (normalized) CCG_application
+ +      -3.5187 * (normalized) CCG_aveHeight
+ +       0.1808 * (normalized) CCG_ba
+ +      -0.4937 * (normalized) CCG_composition
+ +      -0.7228 * (normalized) CCG_conj
+ +      -5.3132 * (normalized) CCG_conjF
+ +      -6.1336 * (normalized) CCG_fa
+ +       0.1751 * (normalized) CCG_gbc
+ +      -0.6163 * (normalized) CCG_gfc
+ +       1.3914 * (normalized) CCG_lex
+ +      -1.1733 * (normalized) CCG_lp
+ +      -1.2599 * (normalized) CCG_lprp
+ +      -3.7232 * (normalized) CCG_numArgs
+ +       1.7272 * (normalized) CCG_numITV
+ +       2.5219 * (normalized) CCG_numNP
+ +       0.1205 * (normalized) CCG_numNPexpl
+ +      -1.3494 * (normalized) CCG_numNPnb
+ +       4.5158 * (normalized) CCG_numNPthr
+ +      -0.1309 * (normalized) CCG_numNnum
+ +      -1.4457 * (normalized) CCG_numPP1
+ +      -2.7417 * (normalized) CCG_numPP2
+ +       0.6449 * (normalized) CCG_numS
+ +       0.9351 * (normalized) CCG_numSadj
+ +       2.5548 * (normalized) CCG_numSb
+ +      -0.81   * (normalized) CCG_numSbNP
+ +       2.396  * (normalized) CCG_numSbNPSbNP
+ +      -1      * (normalized) CCG_numSbem
+ +       3.7389 * (normalized) CCG_numSdcl
+ +      -0.6289 * (normalized) CCG_numSem
+ +       0.8838 * (normalized) CCG_numSfNP
+ +       0.3623 * (normalized) CCG_numSfor
+ +      -0.9543 * (normalized) CCG_numSinv
+ +       1.4476 * (normalized) CCG_numSng
+ +       0.6479 * (normalized) CCG_numSpss
+ +      -0.0211 * (normalized) CCG_numSpt
+ +      -0.4511 * (normalized) CCG_numSq
+ +       1.0371 * (normalized) CCG_numSqem
+ +      -0.6455 * (normalized) CCG_numSto
+ +       0.3284 * (normalized) CCG_numSwq
+ +       0.3678 * (normalized) CCG_numTV
+ +      -2.6729 * (normalized) CCG_other
+ +      -0.8944 * (normalized) CCG_rp
+ +      -6.3004 * (normalized) CCG_sentLength
+ +      14.9066
+
+Number of kernel evaluations: 602661303 (36.44% cached)
+
+
+
+Time taken to build model: 375.21 seconds
+Time taken to test model on training data: 4.13 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances      135215               72.1308 %
+Incorrectly Classified Instances     52243               27.8692 %
+Kappa statistic                          0.4426
+Mean absolute error                      0.2787
+Root mean squared error                  0.5279
+Relative absolute error                 55.7384 %
+Root relative squared error            105.5825 %
+Total Number of Instances           187458     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 69504 24225 |     a = 1
+ 28018 65711 |     b = -1
+
+
+=== Error on test data ===
+
+Correctly Classified Instances       33761               72.0281 %
+Incorrectly Classified Instances     13111               27.9719 %
+Kappa statistic                          0.4406
+Mean absolute error                      0.2797
+Root mean squared error                  0.5289
+Relative absolute error                 55.9438 %
+Root relative squared error            105.777  %
+Total Number of Instances            46872     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 17367  6069 |     a = 1
+  7042 16394 |     b = -1
+
+iCCG Features
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 1, -1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -3.3299 * (normalized) iCCG_POS_adjVar
+ +      -3.6194 * (normalized) iCCG_POS_advVar
+ +     -12.7927 * (normalized) iCCG_POS_correctedVV1
+ +      -0.7042 * (normalized) iCCG_POS_modVar
+ +      -3.4522 * (normalized) iCCG_POS_nounVar
+ +      -4.8134 * (normalized) iCCG_POS_numAdjectives
+ +      -3.7652 * (normalized) iCCG_POS_numAdverbs
+ +      -1.8591 * (normalized) iCCG_POS_numConjunct
+ +       0.451  * (normalized) iCCG_POS_numDeterminers
+ +       2.9965 * (normalized) iCCG_POS_numFunctionWords
+ +      -0.4567 * (normalized) iCCG_POS_numInterjections
+ +       2.4852 * (normalized) iCCG_POS_numLexicals
+ +       0.0282 * (normalized) iCCG_POS_numModals
+ +      -5.4141 * (normalized) iCCG_POS_numNouns
+ +       4.2201 * (normalized) iCCG_POS_numPerPronouns
+ +      -1.7104 * (normalized) iCCG_POS_numPrepositions
+ +      -1.7545 * (normalized) iCCG_POS_numPronouns
+ +       3.0842 * (normalized) iCCG_POS_numProperNouns
+ +       1.6467 * (normalized) iCCG_POS_numVerbs
+ +       0.3333 * (normalized) iCCG_POS_numVerbsVB
+ +       2.8887 * (normalized) iCCG_POS_numVerbsVBD
+ +      -4.7084 * (normalized) iCCG_POS_numVerbsVBG
+ +      -4.1881 * (normalized) iCCG_POS_numVerbsVBN
+ +       4.5815 * (normalized) iCCG_POS_numVerbsVBP
+ +       4.0701 * (normalized) iCCG_POS_numVerbsVBZ
+ +      -0.169  * (normalized) iCCG_POS_numWhPronouns
+ +      12.7272 * (normalized) iCCG_POS_squaredVerbVar1
+ +       9.4867 * (normalized) iCCG_POS_verbVar1
+ +      -1.8065 * (normalized) iCCG_POS_verbVar2
+ +      -5.1136 * (normalized) iCCG_application
+ +      -1.3709 * (normalized) iCCG_aveHeight
+ +      -0.429  * (normalized) iCCG_ba
+ +      -1.6376 * (normalized) iCCG_composition
+ +      -0.6246 * (normalized) iCCG_conj
+ +      -2.7756 * (normalized) iCCG_conjF
+ +      -5.1318 * (normalized) iCCG_fa
+ +      -0.0464 * (normalized) iCCG_gbc
+ +      -1.913  * (normalized) iCCG_gfc
+ +       0.7089 * (normalized) iCCG_lex
+ +      -1.5574 * (normalized) iCCG_lp
+ +      -1.0705 * (normalized) iCCG_lprp
+ +      -0.4272 * (normalized) iCCG_lreveal
+ +      -3.8368 * (normalized) iCCG_numArgs
+ +       2.4778 * (normalized) iCCG_numITV
+ +       0.2251 * (normalized) iCCG_numNP
+ +      -0.2735 * (normalized) iCCG_numNPexpl
+ +      -0.9479 * (normalized) iCCG_numNPnb
+ +       4.3402 * (normalized) iCCG_numNPthr
+ +       0.0334 * (normalized) iCCG_numNnum
+ +      -2.7355 * (normalized) iCCG_numPP1
+ +      -2.4881 * (normalized) iCCG_numPP2
+ +      -1.4263 * (normalized) iCCG_numS
+ +       0.715  * (normalized) iCCG_numSadj
+ +       3.3267 * (normalized) iCCG_numSb
+ +      -1.6481 * (normalized) iCCG_numSbNP
+ +       1.467  * (normalized) iCCG_numSbNPSbNP
+ +      -0.6321 * (normalized) iCCG_numSbem
+ +       2.8935 * (normalized) iCCG_numSdcl
+ +      -0.5234 * (normalized) iCCG_numSem
+ +      -0.0806 * (normalized) iCCG_numSfNP
+ +       0.1802 * (normalized) iCCG_numSfor
+ +      -0.4584 * (normalized) iCCG_numSinv
+ +       1.5408 * (normalized) iCCG_numSng
+ +       0.8328 * (normalized) iCCG_numSpss
+ +      -0.2054 * (normalized) iCCG_numSpt
+ +       1.2512 * (normalized) iCCG_numSq
+ +       0.6161 * (normalized) iCCG_numSqem
+ +      -1.1602 * (normalized) iCCG_numSto
+ +      -0.7643 * (normalized) iCCG_numSwq
+ +       0.2737 * (normalized) iCCG_numTV
+ +      -3.0507 * (normalized) iCCG_other
+ +       0.3527 * (normalized) iCCG_revealLevel
+ +      -0.4773 * (normalized) iCCG_rp
+ +      -0.4427 * (normalized) iCCG_rreveal
+ +      -4.7512 * (normalized) iCCG_sentLength
+ +       0.3023 * (normalized) iCCG_tfc
+ +      16.0038
+
+Number of kernel evaluations: 612045569 (36.3% cached)
+
+
+
+Time taken to build model: 376.42 seconds
+Time taken to test model on training data: 4.39 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances      135259               72.1543 %
+Incorrectly Classified Instances     52199               27.8457 %
+Kappa statistic                          0.4431
+Mean absolute error                      0.2785
+Root mean squared error                  0.5277
+Relative absolute error                 55.6914 %
+Root relative squared error            105.5381 %
+Total Number of Instances           187458     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 65762 27967 |     a = 1
+ 24232 69497 |     b = -1
+
+
+=== Error on test data ===
+
+Correctly Classified Instances       33802               72.1155 %
+Incorrectly Classified Instances     13070               27.8845 %
+Kappa statistic                          0.4423
+Mean absolute error                      0.2788
+Root mean squared error                  0.5281
+Relative absolute error                 55.7689 %
+Root relative squared error            105.6115 %
+Total Number of Instances            46872     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 16417  7019 |     a = 1
+  6051 17385 |     b = -1
+
+iCCG +inn Features
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 1, -1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2.7346 * (normalized) iCCG_POS_adjVar
+ +      -2.9817 * (normalized) iCCG_POS_advVar
+ +       0.274  * (normalized) iCCG_POS_correctedVV1
+ +       0.0301 * (normalized) iCCG_POS_modVar
+ +      -2.8228 * (normalized) iCCG_POS_nounVar
+ +      -3.8865 * (normalized) iCCG_POS_numAdjectives
+ +      -2.6275 * (normalized) iCCG_POS_numAdverbs
+ +      -2.2427 * (normalized) iCCG_POS_numConjunct
+ +       0.8318 * (normalized) iCCG_POS_numDeterminers
+ +       2.9232 * (normalized) iCCG_POS_numFunctionWords
+ +       0.3    * (normalized) iCCG_POS_numInterjections
+ +       1.2452 * (normalized) iCCG_POS_numLexicals
+ +      -0.6358 * (normalized) iCCG_POS_numModals
+ +      -5.412  * (normalized) iCCG_POS_numNouns
+ +       3.8948 * (normalized) iCCG_POS_numPerPronouns
+ +      -2.4123 * (normalized) iCCG_POS_numPrepositions
+ +      -1.3925 * (normalized) iCCG_POS_numPronouns
+ +       3.3402 * (normalized) iCCG_POS_numProperNouns
+ +       0.3187 * (normalized) iCCG_POS_numVerbs
+ +       1.0431 * (normalized) iCCG_POS_numVerbsVB
+ +       1.7803 * (normalized) iCCG_POS_numVerbsVBD
+ +      -5.6805 * (normalized) iCCG_POS_numVerbsVBG
+ +      -2.9094 * (normalized) iCCG_POS_numVerbsVBN
+ +       3.6916 * (normalized) iCCG_POS_numVerbsVBP
+ +       3.0603 * (normalized) iCCG_POS_numVerbsVBZ
+ +       0.2513 * (normalized) iCCG_POS_numWhPronouns
+ +      -0.274  * (normalized) iCCG_POS_squaredVerbVar1
+ +       0.274  * (normalized) iCCG_POS_verbVar1
+ +      -2.3485 * (normalized) iCCG_POS_verbVar2
+ +      -4.0175 * (normalized) iCCG_application
+ +      -2.2298 * (normalized) iCCG_aveHeight
+ +       0.1764 * (normalized) iCCG_ba
+ +      -1.8382 * (normalized) iCCG_composition
+ +      -0.7509 * (normalized) iCCG_conj
+ +      -1.6769 * (normalized) iCCG_conjF
+ +      -4.4607 * (normalized) iCCG_fa
+ +      -2.7875 * (normalized) iCCG_frag
+ +      -0.2006 * (normalized) iCCG_gbc
+ +      -1.9273 * (normalized) iCCG_gfc
+ +       0.0059 * (normalized) iCCG_lex
+ +      -3.0315 * (normalized) iCCG_lp
+ +      -3.7606 * (normalized) iCCG_lprp
+ +      -0.8569 * (normalized) iCCG_lreveal
+ +      -4.9207 * (normalized) iCCG_numArgs
+ +      -1.5253 * (normalized) iCCG_numITV
+ +       0.7977 * (normalized) iCCG_numNP
+ +       1.0915 * (normalized) iCCG_numNPexpl
+ +      -3.4397 * (normalized) iCCG_numNPnb
+ +       4.2273 * (normalized) iCCG_numNPthr
+ +       0.2227 * (normalized) iCCG_numNnum
+ +      -1.9948 * (normalized) iCCG_numPP1
+ +      -2.6255 * (normalized) iCCG_numPP2
+ +      -0.447  * (normalized) iCCG_numS
+ +       1.6307 * (normalized) iCCG_numSadj
+ +       3.3366 * (normalized) iCCG_numSb
+ +      -2.101  * (normalized) iCCG_numSbNP
+ +       3.1373 * (normalized) iCCG_numSbNPSbNP
+ +      -2.013  * (normalized) iCCG_numSbem
+ +       4.0638 * (normalized) iCCG_numSdcl
+ +      -0.2483 * (normalized) iCCG_numSem
+ +      -0.5186 * (normalized) iCCG_numSfNP
+ +      -0.2031 * (normalized) iCCG_numSfor
+ +       0.7589 * (normalized) iCCG_numSfrg
+ +       1.9672 * (normalized) iCCG_numSintj
+ +      -1.2268 * (normalized) iCCG_numSinv
+ +       1.7748 * (normalized) iCCG_numSng
+ +       0.284  * (normalized) iCCG_numSpss
+ +      -0.4417 * (normalized) iCCG_numSpt
+ +       0.6168 * (normalized) iCCG_numSq
+ +       0.2762 * (normalized) iCCG_numSqem
+ +      -0.9458 * (normalized) iCCG_numSto
+ +       0.3995 * (normalized) iCCG_numSwq
+ +       1.5407 * (normalized) iCCG_numTV
+ +      -5.1568 * (normalized) iCCG_other
+ +      -0.2086 * (normalized) iCCG_revealLevel
+ +      -1.276  * (normalized) iCCG_rp
+ +      -0.1305 * (normalized) iCCG_rreveal
+ +      -5.5765 * (normalized) iCCG_sentLength
+ +       0.6084 * (normalized) iCCG_tfc
+ +      25.3621
+
+Number of kernel evaluations: 646386618 (35.705% cached)
+
+
+
+Time taken to build model: 401.01 seconds
+Time taken to test model on training data: 4.54 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances      135053               72.0444 %
+Incorrectly Classified Instances     52405               27.9556 %
+Kappa statistic                          0.4409
+Mean absolute error                      0.2796
+Root mean squared error                  0.5287
+Relative absolute error                 55.9112 %
+Root relative squared error            105.7461 %
+Total Number of Instances           187458     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 65784 27945 |     a = 1
+ 24460 69269 |     b = -1
+
+
+=== Error on test data ===
+
+Correctly Classified Instances       33734               71.9705 %
+Incorrectly Classified Instances     13138               28.0295 %
+Kappa statistic                          0.4394
+Mean absolute error                      0.2803
+Root mean squared error                  0.5294
+Relative absolute error                 56.0591 %
+Root relative squared error            105.8858 %
+Total Number of Instances            46872     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 16434  7002 |     a = 1
+  6136 17300 |     b = -1
+

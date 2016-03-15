@@ -1,0 +1,35 @@
+
+
+
+SVM Rank:
+==========
+
+cd /home/ambati/ilcc/projects/parsing/experiments/readability/data/svm-rank
+python ../../scripts/ose2.py ../ose/OSE-SentenceAlignedCorpus-ThreeLevel-2013toMid2015-FINAL.txt ../ose/ose.dat ose2.csv ose2.raw
+
+
+~/ilcc/tools/svm_rank/svm_rank_learn -c 0.01 ose2.csv model
+~/ilcc/tools/svm_rank/svm_rank_classify ose2.csv model out
+
+~/ilcc/tools/svm_rank/svm_rank_learn -c 0.01 wiki.nn.pstall.train.dat pstall.model
+~/ilcc/tools/svm_rank/svm_rank_classify wiki.nn.pstall.test.dat pstall.model out
+	Zero/one-error on test set: 25.41% (85902 correct, 29263 incorrect, 115165 total)
+
+~/ilcc/tools/svm_rank/svm_rank_learn -c 0.01 wiki.nn.ccgall.train.dat ccgall.model
+~/ilcc/tools/svm_rank/svm_rank_classify wiki.nn.ccgall.test.dat ccgall.model out
+	Zero/one-error on test set: 26.02% (85203 correct, 29962 incorrect, 115165 total)
+
+~/ilcc/tools/svm_rank/svm_rank_learn -c 0.01 wiki.nn.iccgall.train.dat iccgall.model
+~/ilcc/tools/svm_rank/svm_rank_classify wiki.nn.iccgall.test.dat iccgall.model out
+	Zero/one-error on test set: 26.05% (85165 correct, 30000 incorrect, 115165 total)
+	Zero/one-error on test set: 49.87% (57727 correct, 57438 incorrect, 115165 total)
+
+~/ilcc/tools/svm/svm_rank_learn -c 0.01 wiki.td.vmp.dat vmp.model
+~/ilcc/tools/svm/svm_rank_classify wiki.test.vmp.dat vmp.model out
+	Zero/one-error on test set: 25.42% (17479 correct, 5957 incorrect, 23436 total)
+~/ilcc/tools/svm/svm_rank_learn -c 0.001 wiki.td.vmp.dat vmp.model
+~/ilcc/tools/svm/svm_rank_classify wiki.test.vmp.dat vmp.model out     
+	Zero/one-error on test set: 26.88% (17136 correct, 6300 incorrect, 23436 total)
+
+~/ilcc/tools/svm/svm_rank_learn -c 93729 wiki.td.vmp.dat vmp.model
+~/ilcc/tools/svm/svm_learn -z p -c 1 wiki.td.vmp.dat vmp.light.model

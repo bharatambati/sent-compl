@@ -1,0 +1,128 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.ClassifierSubsetEval -B weka.classifiers.functions.SMO -T -H "Click to set hold out or test instances" -- -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Search:weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:SimpleWiki/Wiki data-weka.filters.unsupervised.attribute.Remove-R12-68,85-158-weka.filters.unsupervised.attribute.Remove-R1-27
+Instances:187458
+Attributes:79
+              iCCG_POS_adjVar
+              iCCG_POS_advVar
+              iCCG_POS_correctedVV1
+              iCCG_POS_modVar
+              iCCG_POS_nounVar
+              iCCG_POS_numAdjectives
+              iCCG_POS_numAdverbs
+              iCCG_POS_numConjunct
+              iCCG_POS_numDeterminers
+              iCCG_POS_numFunctionWords
+              iCCG_POS_numInterjections
+              iCCG_POS_numLexicals
+              iCCG_POS_numModals
+              iCCG_POS_numNouns
+              iCCG_POS_numPerPronouns
+              iCCG_POS_numPrepositions
+              iCCG_POS_numPronouns
+              iCCG_POS_numProperNouns
+              iCCG_POS_numVerbs
+              iCCG_POS_numVerbsVB
+              iCCG_POS_numVerbsVBD
+              iCCG_POS_numVerbsVBG
+              iCCG_POS_numVerbsVBN
+              iCCG_POS_numVerbsVBP
+              iCCG_POS_numVerbsVBZ
+              iCCG_POS_numWhPronouns
+              iCCG_POS_squaredVerbVar1
+              iCCG_POS_verbVar1
+              iCCG_POS_verbVar2
+              iCCG_application
+              iCCG_aveHeight
+              iCCG_ba
+              iCCG_composition
+              iCCG_conj
+              iCCG_conjF
+              iCCG_fa
+              iCCG_gbc
+              iCCG_gfc
+              iCCG_lex
+              iCCG_lp
+              iCCG_lprp
+              iCCG_lreveal
+              iCCG_numArgs
+              iCCG_numITV
+              iCCG_numNP
+              iCCG_numNPexpl
+              iCCG_numNPnb
+              iCCG_numNPthr
+              iCCG_numNnum
+              iCCG_numPP1
+              iCCG_numPP2
+              iCCG_numS
+              iCCG_numSadj
+              iCCG_numSb
+              iCCG_numSbNP
+              iCCG_numSbNPSbNP
+              iCCG_numSbem
+              iCCG_numSdcl
+              iCCG_numSem
+              iCCG_numSfNP
+              iCCG_numSfor
+              iCCG_numSfrg
+              iCCG_numSintj
+              iCCG_numSinv
+              iCCG_numSng
+              iCCG_numSpss
+              iCCG_numSpt
+              iCCG_numSq
+              iCCG_numSqem
+              iCCG_numSto
+              iCCG_numSwq
+              iCCG_numTV
+              iCCG_other
+              iCCG_revealLevel
+              iCCG_rp
+              iCCG_rreveal
+              iCCG_sentLength
+              iCCG_tfc
+              class
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 1577
+	Merit of best subset found:    0.281
+
+Attribute Subset Evaluator (supervised, Class (nominal): 79 class):
+	Classifier Subset Evaluator
+	Learning scheme: weka.classifiers.functions.SMO
+	Scheme options: -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0 
+	Hold out/test set: Training data
+	Accuracy estimation: classification error
+
+Selected attributes: 6,9,12,15,18,23,24,25,27,48,49,54,58,66,67,68,71,77,78 : 19
+                     iCCG_POS_numAdjectives
+                     iCCG_POS_numDeterminers
+                     iCCG_POS_numLexicals
+                     iCCG_POS_numPerPronouns
+                     iCCG_POS_numProperNouns
+                     iCCG_POS_numVerbsVBN
+                     iCCG_POS_numVerbsVBP
+                     iCCG_POS_numVerbsVBZ
+                     iCCG_POS_squaredVerbVar1
+                     iCCG_numNPthr
+                     iCCG_numNnum
+                     iCCG_numSb
+                     iCCG_numSdcl
+                     iCCG_numSpss
+                     iCCG_numSpt
+                     iCCG_numSq
+                     iCCG_numSwq
+                     iCCG_sentLength
+                     iCCG_tfc
+
