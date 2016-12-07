@@ -4,7 +4,7 @@ This package consists of tools for predicting relative sentence complexity. Refe
 See useful/testf.sh to replicate the results.
 
 # Getting incremental features.
-Contact Sowmya (sowmya@iastate.edu) and checkout https://bitbucket.org/nishkalavallabhi/ijaiedpapercode for data, Psycholinguistic and other syntactic features. 
+Contact Sowmya (sowmya@iastate.edu) and checkout https://bitbucket.org/nishkalavallabhi/complexity-features for data, Psycholinguistic and other syntactic features. 
 Contact Bharat (bharat.ambati@gmail.com) or Siva (siva.reddy@ed.ac.uk) for CCG features.
 
 # References
